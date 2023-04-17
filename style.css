@@ -1,0 +1,41 @@
+.avatar {
+    display: flex;
+    width: 20%;
+    height: 2%;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+p {
+    align="left"
+    display: block;
+    margin-block-start: 3em;
+    margin-block-end: 3em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
+.text{
+
+    display: flex;
+}
+p {
+    font-size: 80px;
+    font-style: italic;
+    font-family: sans-serif;
+  }
+  body{
+    background-color: rgb(155, 134, 15);
+        color:rgb(23, 11, 49);
+  }
+  .icona{
+    border: 9px solid #deb887;
+    color: #deb887;
+    width: 16%;
+    height: 2%;
+    gap: 3px;
+  }
